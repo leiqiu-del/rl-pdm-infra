@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "interventions",
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string"
+    },
+    "unit_cost": {
+      "type": "number",
+      "minimum": 0
+    },
+    "duration_days": {
+      "type": "number",
+      "minimum": 0
+    },
+    "availability_delta": {
+      "type": "number"
+    },
+    "risk_multiplier": {
+      "type": "number",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "action",
+    "unit_cost"
+  ]
+}

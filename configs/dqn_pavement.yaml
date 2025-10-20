@@ -1,0 +1,17 @@
+
+seed: 11
+env: pavement
+horizon_years: 25
+budget_per_year: 3_500_000
+reward:
+  weights: { cost: 1.0, availability: 0.8, risk: 1.0 }
+dqn:
+  gamma: 0.99
+  lr: 1.0e-3
+  batch_size: 256
+  target_update: 2000
+  replay_capacity: 200000
+  epsilon:
+    start: 1.0
+    end: 0.05
+    decay_steps: 200000

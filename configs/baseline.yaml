@@ -1,0 +1,12 @@
+
+seed: 42
+env: bridge
+horizon_years: 20
+budget_per_year: 5_000_000
+reward:
+  weights: { cost: 1.0, availability: 0.7, risk: 1.2 }
+trainer:
+  algo: rule_based
+  thresholds:
+    condition_index: 0.7
+    traffic_importance: 0.8

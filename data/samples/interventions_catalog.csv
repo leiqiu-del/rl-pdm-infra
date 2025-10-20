@@ -1,0 +1,4 @@
+action,unit_cost,duration_days,availability_delta,risk_multiplier
+minor_repair,50000,7,0.02,0.95
+major_rehab,500000,30,0.15,0.7
+replace,2500000,120,0.35,0.3

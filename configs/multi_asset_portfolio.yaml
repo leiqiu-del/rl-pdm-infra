@@ -1,0 +1,11 @@
+
+seed: 21
+env: portfolio
+assets: [bridge, pavement, water]
+horizon_years: 20
+budget_per_year: 10_000_000
+allocator:
+  type: mean_variance
+  risk_aversion: 2.0
+reward:
+  weights: { cost: 1.0, availability: 1.2, risk: 1.8 }

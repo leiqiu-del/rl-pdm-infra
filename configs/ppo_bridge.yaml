@@ -1,0 +1,17 @@
+
+seed: 7
+env: bridge
+horizon_years: 30
+budget_per_year: 8_000_000
+reward:
+  weights: { cost: 1.0, availability: 1.0, risk: 1.5 }
+ppo:
+  gamma: 0.995
+  gae_lambda: 0.95
+  clip_range: 0.2
+  lr: 3.0e-4
+  steps_per_rollout: 4096
+  minibatch_size: 512
+  update_epochs: 10
+  entropy_coef: 0.01
+  value_coef: 0.5

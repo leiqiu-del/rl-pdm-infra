@@ -1,0 +1,11 @@
+
+cff-version: 1.2.0
+title: rl-pdm-infra
+authors:
+  - family-names: Wang
+    given-names: Kyle
+    orcid: https://orcid.org/0000-0000-0000-0000
+version: 0.1.0
+date-released: 2025-10-20
+repository-code: https://github.com/kyle-wang/rl-pdm-infra
+keywords: [reinforcement learning, predictive maintenance, civil infrastructure]

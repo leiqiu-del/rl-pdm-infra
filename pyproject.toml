@@ -1,0 +1,20 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rl-pdm-infra"
+version = "0.1.0"
+description = "Reinforcement learning for predictive maintenance scheduling in civil infrastructure"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Kyle Wang", email = "your-email@example.com" }]
+dependencies = ["fastapi", "uvicorn", "streamlit"]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "pyright"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
